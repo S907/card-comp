@@ -1,0 +1,140 @@
+.container {
+  width:50%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  /* border: 1px solid red; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: .6rem;
+}
+
+.content{
+  /* border:1px solid red; */
+  width:100%;
+  /* height: 100%; */
+  /* border:1px solid green; */
+}
+
+.img-container {
+  width: 100%;
+  /* height: 60%; */
+  /* border:1px solid green; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-container img {
+  border-radius: .5rem;
+  width:100%;
+  /* padding: 10px; */
+  /* width: 22em; */
+}
+
+
+.overlay-container{
+  position: absolute;
+  background-color:hsl(178, 100%, 50%);
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  bottom:20;
+  /* display: none; */
+  opacity:0;
+}
+.img-container:hover .overlay-container {
+  opacity: .4;
+  cursor: pointer;
+
+}
+
+.overlay-icon{
+  color: whitesmoke;
+  font-size: 5rem;
+  position: absolute;
+  top:40%;
+  left:35%;
+}
+
+.cyan{
+  color: hsl(178, 100%, 50%);
+}
+.not-cy{
+  color:hsl(215, 51%, 70%);
+}
+.right-margin {
+  /* text-align: center; */
+  width:100%;
+  /* padding-left: 25px; */
+  /* padding-left:  10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left:5px;
+}
+.right-margin:hover{
+  color:hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.letter-space{
+  width: 90%;
+  margin-left:5px;
+  color: grey;
+  padding-bottom: 10px;
+}
+.color-white{
+  color: whitesmoke;
+}
+
+
+
+.content-link {
+  padding-top: 20px;
+  padding-left:.3rem;
+  padding-right:.3rem;
+  padding-bottom:.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-left,.container-right{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.container-left{
+  padding-left:5px;
+}
+.container-right{
+  padding-right:5px;
+}
+
+.img-margin{
+  margin-right:.5rem;
+}
+
+.footer{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footer img{
+  width: 10%;
+  margin-left: 10px;
+  padding-right:10px;
+}
+
+.footer span{
+  color: whitesmoke;
+}
+
+/* .img-container img:hover{
+  background-color: hsl(178, 100%, 50%);
+} */
